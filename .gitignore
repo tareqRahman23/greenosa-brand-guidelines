@@ -5,3 +5,4 @@ design-concepts/
 vite.out.log
 vite.err.log
 .DS_Store
+config.bat

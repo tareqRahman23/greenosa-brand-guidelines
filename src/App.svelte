@@ -58,7 +58,7 @@
         });
       });
 
-      gsap.utils.toArray('.art-card img').forEach((image) => {
+      gsap.utils.toArray('.art-card img, .brand-story__image img').forEach((image) => {
         gsap.fromTo(image, { yPercent: -5, scale: 1.06 }, {
           yPercent: 5,
           scale: 1.06,
